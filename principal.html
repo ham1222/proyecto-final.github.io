@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/tanjiro.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Wutang Clan</title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: rgb(255, 170, 13);
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+    }
+</style>
+
+<body class="bg-dark">
+  <h1 class="text-white text-center">Dermis Zabala 23-EISM-1-123</h1>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="bg-dark navbar navbar-expand-lg navbar-light bg-light">
+        <div class="bg-dark container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand text-white " href="index.html">Wutang Clan</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="img/wutang1.jpeg" alt="wutang 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang2.webp" alt="wutang 2">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang3.webp"wutang 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang4.webp" alt="wutang 4">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang5.webp" alt="wutang 5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang6.webp" alt="wutang 6">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/wutang7.webp" alt="wutang 7">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-white rounded text-center p-1">
+      <h1>Wutang Clan:</h1>
+      <p class="Intro"> Wu-Tang Clan es un grupo de hip-hop originario de Staten Island, Nueva York, formado en 1992. 
+        El grupo está compuesto por nueve miembros principales: 
+        RZA, GZA, Method Man, Raekwon, Ghostface Killah, Inspectah Deck, U-God, Masta Killa y Ol' Dirty Bastard 
+        (fallecido en 2004).
+      </p>
+
+      <p class="Intro">El grupo alcanzó la fama con su álbum debut, "Enter the Wu-Tang (36 Chambers)", lanzado en 1993. 
+        El álbum fue aclamado por la crítica y es considerado como uno de los mejores álbumes de hip-hop de todos los tiempos. Wu-Tang Clan es conocido por su estilo único de rap, 
+        que combina letras crudas y desafiantes con beats pesados y sampleos de música soul y kung-fu. 
+      </p>
+      <p class="Intro">
+        Después del éxito de "Enter the Wu-Tang", el grupo lanzó varios álbumes en solitario y colaboraciones con otros artistas. 
+        Wu-Tang Clan también se convirtió en una marca, con productos de merchandising y una línea de ropa.
+      </p>
+      <p class="Intro">
+        A lo largo de los años, Wu-Tang Clan ha experimentado altibajos y ha pasado por varias reencarnaciones, 
+        pero el grupo sigue siendo una influencia importante en el hip-hop y la cultura popular en general. 
+        En 2021, el grupo lanzó un álbum de estudio llamado "Wu-Tang: The Saga Continues". <br>
+      </p>
+    </div>
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-white text-center">Integrantes del grupo 🗽</h3>
+    <div class="card-group">
+      <div class="bg-dark card m-1 p-2">
+        <img class="card-img-top" src="https://uploads-ssl.webflow.com/607a3b00e77aba2fe66b04ee/607a3b00e77aba2cfc6b0734_72-planetary-portraits-the-astrology-of-the-rza_orig.jpeg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-white">RZA</h5>
+          <p class="card-text text-white">RZA es uno de los miembros fundadores y líder del grupo. 
+            Además de su papel como rapero, también es el principal productor musical del grupo, 
+            y ha creado gran parte de la música de Wu-Tang Clan. 
+            También ha sido el encargado de producir varios álbumes en solitario de otros miembros del grupo, 
+            así como proyectos en colaboración con otros artistas fuera de Wu-Tang.
+          </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="bg-dark card m-1 p-2">
+        <img class="card-img-top" src="https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/13859881/b738acbb-a861-499f-82f6-a52f5b629b78.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-white">GZA</h5>
+          <p class="card-text text-white">GZA ha sido un miembro respetado y admirado dentro de Wu-Tang Clan, y ha trabajado en colaboraciones 
+            con otros miembros del grupo y con artistas fuera del colectivo. 
+            Como resultado, ha sido una figura influyente en la cultura del hip-hop
+            y ha sido reconocido como uno de los MCs más talentosos y astutos de la música de hip-hop.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="bg-dark card m-1 p-2">
+        <img class="card-img-top" src="https://media.pitchfork.com/photos/62030e834c054256334e4261/4:3/w_1624,h_1218,c_limit/ODB_1995_getty.jpg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="text-white card-title">Ol' Dirty Bastard </h5>
+          <p class="card-text text-white">Dentro de Wu-Tang Clan, ODB era conocido por ser uno de los MCs más distintivos del grupo, 
+          y aportaba un enfoque único a sus letras y actuaciones en vivo. 
+          También colaboró con otros miembros del grupo en varios proyectos, y lanzó varios álbumes en solitario, 
+          incluyendo el exitoso "Return to the 36 Chambers: The Dirty Version".
+          </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2 bg-dark">
+          <img class="card-img-top" src="data:image/jpeg;base64,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"
+            alt="Card image cap">
+          <div class="card-body bg-dark">
+            <h5 class="text-white card-title">Method Man</h5>
+            <p class="card-text text-white">Dentro de Wu-Tang Clan, Method Man fue uno de los miembros más destacados y se convirtió en una figura popular en la 
+              cultura del hip-hop a través de sus colaboraciones en proyectos del grupo y en sus propios álbumes en solitario. 
+              También trabajó en colaboraciones con otros artistas, como Mary J. Blige y Redman.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="bg-dark card m-1 p-2">
+          <img class="card-img-top"
+            src="https://m.media-amazon.com/images/M/MV5BMjg3OGYyZWMtZmU2NS00ODA4LThmZDItOWI2OGM3M2JiNjVlXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_FMjpg_UX1000_.jpgv"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-white">Raekwon</h5>
+            <p class="card-text text-white">
+              Wu-Tang Clan, Raekwon ha sido uno de los miembros más destacados, y ha colaborado con otros miembros del grupo en varios proyectos, 
+              así como en su propia carrera en solitario. En 1995, lanzó su álbum debut en solitario, 
+              "Only Built 4 Cuban Linx...", que se convirtió en un clásico instantáneo del 
+              hip-hop y es ampliamente considerado como uno de los mejores álbumes de la historia del género.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="bg-dark card m-1 p-2">
+          <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0392/3997/5043/articles/images_1_large.jpg?v=1652120618"
+            alt="Card image cap">
+          <div class="text-white card-body">
+            <h5 class="card-title">Ghostface Killah</h5>
+            <p class="card-text">
+              Ghostface Killah es un rapero y miembro fundador del grupo de hip hop Wu-Tang Clan. Es conocido por su estilo de rap agudo y su enfoque en la narración de historias en sus letras. 
+              Ghostface Killah ha lanzado varios álbumes en solitario y ha colaborado con muchos otros artistas en la industria de la música. Junto con los otros miembros de Wu-Tang Clan, 
+              ha sido muy influyente en el mundo del hip hop y ha dejado una huella duradera en la cultura musical.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+   <!--Galeria Grupo Card #3- -->
+        <div class="card-group">
+          <div class="bg-dark card m-1 p-2">
+            <img class="card-img-top" src="https://media.newyorker.com/photos/5ab522f5de3c0011c8daa80e/16:9/w_2927,h_1646,c_limit/Hsu-U-God.jpg"
+              alt="Card image cap">
+            <div class="text-white card-body">
+              <h5 class="card-title">U-God</h5>
+              <p class="card-text">
+                U-God era conocido por su estilo de rap lírico y su voz distintiva. Contribuyó a muchos proyectos del grupo, 
+                y también lanzó varios álbumes en solitario a lo largo de los años, incluyendo "Golden Arms Redemption" y "The Keynote Speaker". <br> 
+                U-God ha sido conocido por su presencia en los medios y su compromiso con la comunidad. Ha aparecido en varios programas de televisión y películas, 
+                y ha trabajado en proyectos benéficos para la juventud y la comunidad en general.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="bg-dark card m-1 p-2">
+            <img class="card-img-top" src="https://thesource.com/wp-content/uploads/2021/07/tumblr_pu4phnaFEU1t1yehoo1_1280.jpg"
+              alt="Card image cap">
+            <div class="text-white card-body">
+              <h5 class="card-title">Inspectah Deck</h5>
+              <p class="card-text">
+                Inspectah Deck es un rapero y miembro fundador del grupo de hip hop Wu-Tang Clan. Es conocido por su fluidez en el rap y su habilidad para 
+                construir letras complejas y llenas de metáforas. Además de ser miembro de Wu-Tang Clan, 
+                Inspectah Deck también ha lanzado varios álbumes en solitario y ha colaborado con muchos otros artistas en la industria de la música. 
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="bg-dark card m-1 p-2">
+            <img class="card-img-top" src="https://is2-ssl.mzstatic.com/image/thumb/Features124/v4/76/ec/4c/76ec4c60-21cf-9895-57d0-495af35224aa/mza_6474202913796759022.png/375x375bb.jpg"
+              alt="Card image cap">
+            <div class="text-white card-body">
+              <h5 class="card-title">Masta Killa</h5>
+              <p class="card-text">
+                Masta Killa es conocido por su estilo de rap lírico y su voz suave y calmada. A lo largo de los años, 
+                Masta Killa ha sido reconocido como uno de los miembros menos conocidos de Wu-Tang Clan, 
+                pero sigue siendo valorado por su contribución al sonido distintivo del grupo. 
+                Ha colaborado con muchos otros artistas y ha seguido lanzando música tanto en solitario como en colaboración con otros artistas.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+      
+
+              <br><br>
+              <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+              <h3 id="titulo" class="text-white text-center">Mejores albumes de Wutang</h3>
+              <hr>
+
+              <div class="card-group">
+                <div class="bg-dark card">
+                  <iframe src="https://open.spotify.com/embed?uri=spotify:album:3tQd5mwBtVyxCoEo4htGAV" 
+                  width="300" height="200" frameborder="0" 
+                  allowtransparency="true" allow="encrypted-media"></iframe>
+                  <div class="text-white card-body">
+                    <h5 class="card-title">"Enter the Wu-Tang (36 Chambers)" (1993)</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="bg-dark card">
+                  <iframe src="https://open.spotify.com/embed?uri=spotify:album:7lu4XiC8Ai5RqnCJ5IkoDR" 
+                  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                  <div class="text-white bg-dark card-body">
+                    <h5 class="card-title">"Wu-Tang Forever" (1997)</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="bg-dark card">
+                  <iframe src="https://open.spotify.com/embed?uri=spotify:album:2WU4hhnp2kjPckmjqdL1RT" 
+                  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                  <div class="card-body bg-dark">
+                    <h5 class="card-title text-white">"The W" (2000)</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                <div class="bg-dark card-group">
+                  <div class="card bg-dark">
+                    <iframe src="https://open.spotify.com/embed?uri=spotify:album:1gKAuYWacmDF9bpHlLBLcX" 
+                    width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="bg-dark card-body">
+                      <h5 class="text-white card-title">"Iron Flag" (2001)</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="bg-dark card">
+                    <iframe src="https://open.spotify.com/embed?uri=spotify:album:14u4xxov9oj509A7sGPJdH" 
+                    width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="card-body bg-dark">
+                      <h5 class="card-title text-white">"8 Diagrams" (2007)</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="bg-dark card">
+                    <iframe src="https://open.spotify.com/embed?uri=spotify:album:1eFLCXEcuThN3QpMffhfvy" 
+                    width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="bg-dark card-body">
+                      <h5 class="card-title text-white">"A Better Tomorrow" [2014]
+                        [FINAL]</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+
+
+          <h3 id="titulo" class="text-center text-white">Escuchar albumes completo</h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+
+              <a href="https://www.youtube.com/playlist?list=PLAY4FFM5qrj1HsMbotL_reK3j3QIq2pLo" target="_blank"
+                class="btn btn-warning btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Albumes completos
+                </a>
+
+            </div>
+            <br>
+            <a href="https://www.youtube.com/playlist?list=PLg2du0fC-VEk2inqXriqi8SjoCC4VZCvx" target="_blank"
+                class="btn btn-warning btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">A better tomorrow album completo
+                </a>
+            <!--Fin Boton Ver Serie-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center text-white">Red Social Github</h3>
+            <hr />
+            <div class=" text-center center-block">
+              <div class="social">
+                <a href="https://github.com/ham1222" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+            </div>
+            <hr />
+            
+            <h4 class="text-center text-white">Dermis Zabala 23-EISM-1-123 <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-warning">
+              <div class="container">
+                <div class="row text-center">
+                  <div class="col-12 col-lg">
+                    <a href="index.html" class="text-dark">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="sobre_mi.html" class="text-dark">Sobre mi</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
